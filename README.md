@@ -20,7 +20,7 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-#Installazione SWI-Prolog
+## Installazione SWI-Prolog
 ```bash
 # 1. Clonazione della repository ufficiale
 git clone [https://github.com/SWI-Prolog/swipl-devel.git](https://github.com/SWI-Prolog/swipl-devel.git)
@@ -39,7 +39,7 @@ make install
 
 Aprire il file venv/bin/activate e copiare in fondo le seguenti righe
 
-### --- CONFIGURAZIONE LOCALE SWI-PROLOG PER PYSWIP ---
+#### --- CONFIGURAZIONE LOCALE SWI-PROLOG PER PYSWIP ---
 export SWI_HOME_DIR="$VIRTUAL_ENV/lib/swipl"
 export LD_LIBRARY_PATH="$VIRTUAL_ENV/lib/swipl/lib/x86_64-linux:$LD_LIBRARY_PATH"
 
