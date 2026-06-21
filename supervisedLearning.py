@@ -431,7 +431,7 @@ if __name__ == "__main__":
 
 
  
-    plotLearningCurve(LogRegressor,X,y,"multinomial regression")
+    plotLearningCurve(LogRegressor,Xtrain,ytrain,"multinomial regression")
     plotLearningCurve(knnmodel,X,y,"k-nearest neighbors")
     plotLearningCurve(RandomForest,Xf,yf,"random forest")
     plotLearningCurve(RandomForeststack,X,y,"random forest for stacking")
